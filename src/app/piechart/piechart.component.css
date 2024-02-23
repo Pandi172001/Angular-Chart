@@ -1,0 +1,25 @@
+
+.charts{
+
+    display: flex;
+    margin: 20px;
+}
+
+.pie{
+
+    flex: 1;
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+    
+}
+.chart {
+    width: 700px;
+    height: 700px;
+  }
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 430px;  
+    padding-top: 80px;
+  }
